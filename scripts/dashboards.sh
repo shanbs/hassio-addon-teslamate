@@ -23,7 +23,7 @@ readonly FOLDER_NAME=$(bashio::config 'grafana_folder_name')
 main() {
   local task=$1
 
-  URL="http://$HOST:$PORT"
+  URL="https://$HOST:$PORT"
   LOGIN="$USER:$PASS"
   
   case $task in
